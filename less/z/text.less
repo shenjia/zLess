@@ -1,0 +1,43 @@
+// Text.less
+// Deal with text, font and typographic
+// --------------------------------------
+.text ( @color: @textColor, @size: @textSize, @height: @textHeight ) when ( iscolor( @color ) ) { 
+	color: @color; 
+	font-size: @size; 
+	line-height: @height; 
+}
+.text ( @size: @textSize, @height: @textHeight ) when ( ispixel( @size ) ) { 
+	font-size: @size; 
+	line-height: @height;
+}
+.text-over ( @color ) {
+	&:hover {
+		color: @color;
+	}
+}
+.ta ( @side: left ) { 
+	text-align: @side;
+}
+.hideText () { 
+	text-indent: -9999px;
+}
+.noText () { 
+	font-size: 0; 
+	line-height: 0;
+}
+.oneLine () { 
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	white-space: nowrap;
+}
+.multiLine () { 
+	word-wrap: break-word;
+}
+.placeholder ( @color: @placeholderColor ) {
+	:-moz-placeholder {
+		color: @color;
+	}
+	::-webkit-input-placeholder {
+		color: @color;
+	}
+}

@@ -1,0 +1,37 @@
+// Arrow.less
+// Arrow for tip boxs
+// -------------------------------------
+#arrow {
+	.top ( @width: 5px, @color: #000 ) {
+		#position.lt( 50%, -@width );
+		.noSize;
+		margin-left: -@width;
+		border-left: @width solid transparent;
+		border-right: @width solid transparent;
+		border-bottom: @width solid @color;
+	}
+	.bottom ( @width: 5px, @color: #000 ) {
+		#position.lb( 50%, -@width );
+		.noSize;
+		margin-left: -@width;
+		border-left: @width solid transparent;
+		border-right: @width solid transparent;
+		border-top: @width solid @color;
+	}
+	.left ( @width: 5px, @color: #000 ) {
+		#position.lt( -@width, 50% );
+		.noSize;
+		margin-top: -@width;
+		border-top: @width solid transparent;
+		border-bottom: @width solid transparent;
+		border-right: @width solid @color;
+	}
+	.right ( @width: 5px, @color: #000 ) {
+		#position.rt( -@width, 50% );
+		.noSize;
+		margin-top: -@width;
+		border-top: @width solid transparent;
+		border-bottom: @width solid transparent;
+		border-left: @width solid @color;
+	}
+}

@@ -1,0 +1,27 @@
+// Fix.less
+// Some common use fixs
+// --------------------------------
+
+// Fix IE6/7 don't fill area without background
+.areaFix() { 
+	background: url(about:blank); 
+}
+
+// Fix IE6/7 box model
+.sizeFix ( @width, @height, @paddingX: 0, @paddingY: 0 ) {
+	width: @width + @paddingX;
+	height: @height + @paddingY;
+}
+
+// Fix float
+.clearFix {
+	*zoom: 1;
+	&:before,
+	&:after {
+		display: table;
+		content: "";
+	}
+	&:after {
+		clear: both;
+	}
+}

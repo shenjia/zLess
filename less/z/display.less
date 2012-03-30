@@ -1,0 +1,36 @@
+// Display.less
+// Deal with display, size stuffs.
+// ---------------------------------
+.show () { 
+	display: block;
+}
+.hide () { 
+	display: none;
+}
+.block () { 
+	display: block;
+}
+.inline () { 
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+.visible () {
+	visibility: visible;
+}
+.invisible () {
+	visibility: hidden;
+}
+.size ( @width: 0, @height: 0 ) when ( ispixel( @height ) ) { 
+	width: @width;
+	height: @height;
+}
+.size ( @size: 0 ) {
+	width: @size;
+	height: @size;
+}
+.noSize () { 
+	.size( 0 ); 
+	border: 0; 
+	outline: 0;
+}

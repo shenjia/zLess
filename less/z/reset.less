@@ -1,0 +1,106 @@
+// Reset.less
+// Adapted from Normalize.css http://github.com/necolas/normalize.css
+// ------------------------------------------------------------------------
+
+// Display block in IE6-9 and FF3
+// -------------------------
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+// Display block in IE6-9 and FF3
+// -------------------------
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+// Reset margin & padding & border in all broswers
+// -------------------------
+blockquote, body, dd, dir, dl, form, h1, h2, h3, h4, h5, h6, hr, listing, menu, ol, p, plaintext, pre, ul, xmp {
+	margin: 0;
+}
+button, caption, fieldset, input, legend, td, textarea, th {
+	padding: 0;
+}
+button, fieldset, input, img, select, textarea {
+	border: 0;
+}
+
+// Reset list appearance
+// -------------------------
+ul { 
+	list-style: none; 
+}
+
+// Prevent unnecessary text resizing in IE 6/7 & iOS
+// -------------------------
+html { 
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+// Reset links appearance
+// -------------------------
+a {
+	text-decoration: none; 
+	cursor: pointer;
+}
+
+// Prevent hightlight in Webkit
+// -------------------------
+a, button, div, input, textarea {
+	-webkit-tap-highlight-color: rgba(0,0,0,0) 
+}
+
+// Prevent outline on focus in Webkit
+:focus, a:hover, a:active {
+	outline: none;
+	-moz-outline: none;
+}
+
+// Prevents sub and sup affecting line-height in all browsers
+// -------------------------
+sub, sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sup { 
+	top: -0.5em; 
+}
+sub { 
+	bottom: -0.25em;
+}
+
+// Img border in a's and image quality
+// -------------------------
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+// Reset text appearance
+// --------------------------
+address, legend, cite, em { 
+	font-style: normal 
+}
+
+// Forms
+// --------------------------
+button, input[type="button"], input[type="reset"], input[type="submit"] { 
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+input[type="text"], input[type="password"], input[type="search"], textarea {
+	-webkit-appearance: none
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}

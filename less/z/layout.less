@@ -1,0 +1,72 @@
+// Layout.less
+// Deal with layout, float and position stuffs.
+// --------------------------------------
+.layout ( @height: auto, @margin: @layoutMargin, @padding: @layoutPadding ) { 
+	width: @layoutWidth; 
+	height: @height; 
+	margin: @margin; 
+	padding: @padding;
+}
+.layout { 
+	width: @layoutWidth; 
+	margin: @layoutMargin; 
+	padding: @layoutPadding;
+}
+.left () { 
+	float: left;
+}
+.right () { 
+	float: right;
+}
+.center () { 
+	margin-left: auto;
+	margin-right: auto;
+}
+.middle ( @height: 0, @space: 0 ) { 
+	margin-top: ( @space - @height ) / 2;
+}
+.keepSize () { 
+	overflow: hidden;
+}
+.fullHeight () { 
+	margin-bottom: -10000px; 
+	padding-bottom: 10000px; 
+}
+#position {
+	.container () {  
+		position: relative 
+	}
+	.lt ( @x: 0, @y: 0, @pos: absolute ) { 
+		position: @pos; 
+		left: @x; 
+		top: @y;
+	}
+	.lb ( @x: 0, @y: 0, @pos: absolute ) { 
+		position: @pos; 
+		left: @x; 
+		bottom: @y;
+	}
+	.rt ( @x: 0, @y: 0, @pos: absolute ) { 
+		position: @pos; 
+		right: @x; 
+		top: @y;
+	}
+	.rb ( @x: 0, @y: 0, @pos: absolute ) { 
+		position: @pos; 
+		right: @x; 
+		bottom: @y;
+	}
+	.middle ( @height ) { 
+		position: absolute; 
+		top:50%; 
+		margin-top: -@height / 2;
+	}
+	.center ( @width, @height ) { 
+		position: absolute; 
+		left: 50%; 
+		top: 50%; 
+		width: @width; 
+		height:@height; 
+		margin:-@height/2 0 0 -@width/2;
+	}
+}

@@ -1,0 +1,45 @@
+// Base.less
+// Set default things, such as font and color.
+// --------------------------------------------------
+
+// Text
+// -------------------
+body, div, a, h1, h2, h3, h4, h5, h6, p, td, input, button, label, select, textarea {
+	font-family: @textFont; 
+	font-size: @textSize;
+	line-height: @textHeight;
+	color: @textColor;
+}
+
+// Title
+// -------------------
+h1, h2, h3, h4, h5, h6, legend, caption {
+	font-size: @titleSize;
+	line-height: @titleHeight;
+	color: @titleColor;
+}
+
+// Horizontal rules
+// -------------------
+hr {
+	border: 0;
+	margin: @textHeight 0;
+	border-top: 1px solid @hrColor;
+	border-bottom: 1px solid @white;
+}
+
+// Typegraphic
+// -------------------
+p {
+	text-indent: 2em;
+	margin: 0 0 @textHeight / 2;
+}
+
+// Link
+// -------------------
+a { 
+	color: @linkColor;
+	&:hover { color: @linkColorHover; text-decoration: none }
+	&.current { color: @linkColorCurrent }
+	&.disable { cursor: default }
+}
