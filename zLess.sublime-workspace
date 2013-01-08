@@ -1,0 +1,181 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ss css",
+				"Set Syntax: CSS"
+			],
+			[
+				"sets css",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/zhangshenjia/zLess/less/config.less",
+		"/Users/zhangshenjia/zLess/less/ui/base.less",
+		"/Users/zhangshenjia/zLess/less/z/layout.less",
+		"/Users/zhangshenjia/zLess/less/z/border.less",
+		"/Users/zhangshenjia/zLess/less/z/css3.less",
+		"/Users/zhangshenjia/zLess/README.md",
+		"/Users/zhangshenjia/zLess/less/z/background.less",
+		"/Volumes/Elements/Workspace/weipai.com/web/index-test.php",
+		"/Volumes/Elements/Workspace/weipai.com/web",
+		"/Users/zhangshenjia/zLess/less/app.less",
+		"/Users/zhangshenjia/zLess/less/ui/form.less",
+		"/Users/zhangshenjia/zLess/less/ui/arrow.less",
+		"/Users/zhangshenjia/zLess/less/z/text.less",
+		"/Users/zhangshenjia/zLess/less/z/reset.less",
+		"/Users/zhangshenjia/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/zhangshenjia/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/zhangshenjia/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/zhangshenjia/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/zhangshenjia/aoeu.sh/aoeu.sh",
+		"/Users/zhangshenjia/Library/Application Support/Sublime Text 2/Packages/Default/Preferences (OSX).sublime-settings",
+		"/Users/zhangshenjia/Library/Application Support/Sublime Text 2/Packages/Default/switch_file.py",
+		"/Users/zhangshenjia/Library/Application Support/Sublime Text 2/Packages/Default/Default.sublime-commands",
+		"/Users/zhangshenjia/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-mousemap",
+		"/Volumes/D-1/Program Files/Vim/_vimrc",
+		"/Users/zhangshenjia/Documents/code/aoeu.sh/aoeu.sh",
+		"/Volumes/D/ok/z-js/core.js",
+		"/Users/zhangshenjia/Documents/aoeu.sh/aoeu.sh",
+		"/Volumes/D/ok/aoeu.sh/aoeu.sh"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"aoeu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/zhangshenjia/saolei.net/saolei.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

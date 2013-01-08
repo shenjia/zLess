@@ -21,7 +21,7 @@ audio, canvas, video {
 blockquote, body, dd, dir, dl, form, h1, h2, h3, h4, h5, h6, hr, listing, menu, ol, p, plaintext, pre, ul, xmp {
 	margin: 0;
 }
-button, caption, fieldset, input, legend, td, textarea, th {
+button, caption, fieldset, input, legend, td, textarea, th, ul {
 	padding: 0;
 }
 button, fieldset, input, img, select, textarea {
@@ -32,6 +32,7 @@ button, fieldset, input, img, select, textarea {
 // -------------------------
 ul { 
 	list-style: none; 
+  -webkit-padding-start: 0;
 }
 
 // Prevent unnecessary text resizing in IE 6/7 & iOS
@@ -100,7 +101,11 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 input[type="text"], input[type="password"], input[type="search"], textarea {
 	-webkit-appearance: none
 }
+input:-webkit-autofill{ 
+  background-color: #000; 
+}
 textarea {
   overflow: auto;
+  resize: none;
   vertical-align: top;
 }

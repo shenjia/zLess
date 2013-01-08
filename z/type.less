@@ -1,4 +1,4 @@
-// Text.less
+// Type.less
 // Deal with text, font and typographic
 // --------------------------------------
 .text ( @color: @textColor, @size: @textSize, @height: @textHeight ) when ( iscolor( @color ) ) { 
@@ -17,6 +17,12 @@
 }
 .ta ( @side: left ) { 
 	text-align: @side;
+}
+.bold () {
+	font-weight: bold;
+}
+.underline () {
+	text-decoration: underline;
 }
 .hideText () { 
 	text-indent: -9999px;

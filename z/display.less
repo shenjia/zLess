@@ -1,10 +1,10 @@
 // Display.less
 // Deal with display, size stuffs.
 // ---------------------------------
-.show () { 
+.show { 
 	display: block;
 }
-.hide () { 
+.hide { 
 	display: none;
 }
 .block () { 
@@ -15,13 +15,17 @@
 	*display: inline;
 	*zoom: 1;
 }
-.visible () {
+.escape {
+	.noSize;
+	text-indent:-9999px;
+}
+.visible {
 	visibility: visible;
 }
-.invisible () {
+.invisible {
 	visibility: hidden;
 }
-.size ( @width: 0, @height: 0 ) when ( ispixel( @height ) ) { 
+.size ( @width: 0, @height: 0 ) { 
 	width: @width;
 	height: @height;
 }

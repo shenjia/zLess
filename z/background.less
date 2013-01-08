@@ -19,6 +19,9 @@
 .background ( @other ) {
 	background: @other;
 }
+.image ( @width, @height, @url ) {
+	.block; .size( @width, @height ); .background( @url );
+}
 
 // Get background from sprites
 .background-x ( @index, @size, @padding: @imagePadding ) { 

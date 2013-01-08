@@ -30,14 +30,14 @@
 }
 
 // Border radius
-.border-radius ( @radius ) {
+.border-radius ( @radius : @borderRadius ) {
   -webkit-border-radius: @radius;
      -moz-border-radius: @radius;
       -ms-border-radius: @radius;
        -o-border-radius: @radius;
           border-radius: @radius;
 }
-.border-radius-left ( @radius ) {
+.border-radius-left ( @radius : @borderRadius ) {
   -webkit-border-top-left-radius: @radius;
       -moz-border-radius-topleft: @radius; 
         -o-border-radius-topleft: @radius; 
@@ -47,7 +47,7 @@
         -o-border-radius-bottomleft: @radius; 
           border-bottom-left-radius: @radius;
 }
-.border-radius-right ( @radius ) {
+.border-radius-right ( @radius : @borderRadius ) {
   -webkit-border-top-right-radius: @radius; 
       -moz-border-radius-topright: @radius; 
         -o-border-radius-topright: @radius; 
@@ -57,7 +57,7 @@
         -o-border-radius-bottomright: @radius; 
           border-bottom-right-radius: @radius;
 }
-.border-radius-top ( @radius ) {
+.border-radius-top ( @radius : @borderRadius ) {
   -webkit-border-top-left-radius: @radius;
       -moz-border-radius-topleft: @radius; 
         -o-border-radius-topleft: @radius;  
@@ -67,7 +67,7 @@
         -o-border-radius-topright: @radius; 
           border-top-right-radius: @radius; 
 }
-.border-radius-bottom ( @radius ) {
+.border-radius-bottom ( @radius : @borderRadius ) {
   -webkit-border-bottom-left-radius: @radius; 
       -moz-border-radius-bottomleft: @radius; 
         -o-border-radius-bottomleft: @radius; 
